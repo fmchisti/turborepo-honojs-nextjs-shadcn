@@ -1,13 +1,13 @@
 # Turborepo starter
 
-This is an official starter Turborepo.
+This is an unofficial starter Turborepo Shadcn, Nextjs and Honojs combaind repo.
 
 ## Using this example
 
 Run the following command:
 
 ```sh
-npx create-turbo@latest
+git clone https://github.com/fmchisti/turborepo-honojs-nextjs-shadcn.git .
 ```
 
 ## What's inside?
@@ -16,9 +16,9 @@ This Turborepo includes the following packages/apps:
 
 ### Apps and Packages
 
-- `docs`: a [Next.js](https://nextjs.org/) app
+- `api`: a [HonoJs](https://hono.dev/docs/) app
 - `web`: another [Next.js](https://nextjs.org/) app
-- `@repo/ui`: a stub React component library shared by both `web` and `docs` applications
+- `@repo/ui`: a stub React component shadcn library shared with `web` applications
 - `@repo/eslint-config`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
 - `@repo/typescript-config`: `tsconfig.json`s used throughout the monorepo
 
